@@ -2,85 +2,95 @@
   <img src="banner.png" width="100%" alt="NucLens Security Scanner">
 </div>
 
-╔══════════════════════════════════════════════════════════════╗
-║                         N U C L E N S                        ║
-║                 WEBSITE SECURITY SCANNER                     ║
-║                    SCAN • DETECT • REPORT                     ║
-╚══════════════════════════════════════════════════════════════╝
+<div align="center">
 
-Nuclens adalah alat pemindai website untuk membantu memeriksa dan
-menemukan indikasi masalah keamanan pada website. Nuclens memiliki
-konsep penggunaan yang mirip dengan Nuclei.
+# ⚡ NUCLENS
+### WEBSITE SECURITY SCANNER
 
-Dibuat oleh : Mr Panglima Jatim
+**SCAN • DETECT • REPORT**
 
-──────────────────────────────────────────────────────────────
-  1. PERSIAPAN DAN INSTALASI MODUL
-──────────────────────────────────────────────────────────────
+Developed by **Mr Panglima Jatim**
 
-Jalankan perintah berikut di Kali Linux / Debian.
+</div>
 
-[ A ] Install paket sistem
+---
 
+## 🔍 ABOUT NUCLENS
+
+Nuclens adalah alat pemindai keamanan website untuk membantu
+menemukan indikasi masalah keamanan pada website.
+Memiliki konsep penggunaan yang mirip dengan Nuclei.
+
+## 📦 INSTALLATION
+
+**1. Install paket sistem**
+
+```bash
 sudo apt update
 sudo apt install python3-pycryptodome python3-full python3-venv -y
+```
 
-[ B ] Masuk ke folder proyek
+**2. Masuk ke folder proyek**
 
+```bash
 cd /home/kali/x3-env
+```
 
-[ C ] Buat virtual environment
+**3. Buat virtual environment**
 
+```bash
 python3 -m venv venv
+```
 
-[ D ] Aktifkan virtual environment
+**4. Aktifkan virtual environment**
 
+```bash
 source venv/bin/activate
+```
 
-[ E ] Install modul Python
+**5. Install modul wajib**
 
+```bash
 pip install pycryptodome
 pip install rich
+```
 
-──────────────────────────────────────────────────────────────
-  2. CARA MENJALANKAN NUCLENS
-──────────────────────────────────────────────────────────────
+## 🚀 HOW TO USE
 
-Pastikan virtual environment sudah aktif, kemudian jalankan:
+Jalankan perintah berikut:
 
+```bash
 python Nuclens.py -u https://contoh.com
+```
 
-Ganti https://contoh.com dengan URL website yang kamu miliki
-atau website yang sudah memberikan izin untuk diuji.
+Ganti URL dengan website milik sendiri atau website
+yang sudah memberikan izin pengujian.
 
-──────────────────────────────────────────────────────────────
-  3. HASIL SCANNING
-──────────────────────────────────────────────────────────────
+## 📄 SCAN RESULTS
 
-Hasil scanning akan disimpan secara otomatis ke file:
+Hasil scanning tersimpan otomatis di:
 
+```bash
 Nuclens.txt
+```
 
-Periksa file tersebut di folder kerja Nuclens untuk melihat
-hasil pemindaian.
+## ⭐ SUPPORT THE PROJECT
 
-──────────────────────────────────────────────────────────────
-  4. DUKUNG NUCLENS
-──────────────────────────────────────────────────────────────
+Jika proyek ini bermanfaat:
 
-Jika Nuclens bermanfaat:
+- ⭐ Jangan lupa berikan STAR di GitHub.
+- ▶️ Subscribe YouTube Panglima Jatim.
+- ❤️ Dukung pengembangan Nuclens.
 
-  ★ Berikan STAR pada repository GitHub ini.
-  ▶ Subscribe YouTube Panglima Jatim.
-  ↗ Bagikan proyek ini kepada teman-teman.
-
-YouTube:
+**YouTube:**
 https://www.youtube.com/results?search_query=Panglima+Jatim
 
-──────────────────────────────────────────────────────────────
+---
 
-             DEVELOPED WITH PASSION BY
-                  MR PANGLIMA JATIM
+<div align="center">
 
-              NUCLENS — SCAN RESPONSIBLY
-══════════════════════════════════════════════════════════════
+**MADE WITH ❤️ BY MR PANGLIMA JATIM**
+
+⚡ NUCLENS — SCAN RESPONSIBLY ⚡
+
+</div>
